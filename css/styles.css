@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto" sans-serif;
+  color: #2e2f42;
+}
+:root {
+  --brand-color: color: #2E2F42;
+  --adress-color: color: #434455;
+  --paragr-color: color: #434455;
+  --focuse-color: color: #404BBF;
+  --hover-color: color: #FFFFFF;
+
+}
+.logotip {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+color: #4D5AE5;
+}
+.logohalf {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+color: #2E2F42;
+}
+.navigation {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.navigation .ahead {
+color: var(--brand-color);
+}
+.navigation .ahead:focus {
+    color: var(--focuse-color)
+}
+.navigation .ahead:hover {
+    color: var(--hover-color)
+}
+.link-contact {
+    color: var(--adress-color)
+}
+.link-contact .contact:focus {
+    color: var(--focuse-color);
+}
+.link-contact .contact:hover {
+    color: var(--hover-color)
+}
