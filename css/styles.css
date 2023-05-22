@@ -8,8 +8,10 @@ body {
   --paragr-color: color: #434455;
   --focuse-color: color: #404BBF;
   --hover-color: color: #FFFFFF;
-
+  --text-color: color: #FFFFFF;
 }
+
+<!--logo-->
 .logotip {
 font-family: 'Raleway';
 font-style: normal;
@@ -26,6 +28,7 @@ font-size: 18px;
 line-height: 21px;
 color: #2E2F42;
 }
+<!--hero-->
 .navigation {
 font-family: 'Roboto';
 font-style: normal;
@@ -50,4 +53,20 @@ color: var(--brand-color);
 }
 .link-contact .contact:hover {
     color: var(--hover-color)
+}
+.capital {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+color: var(--hover-color)
+}
+.push {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: var(--text-color);
 }
