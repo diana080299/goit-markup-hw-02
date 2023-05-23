@@ -1,72 +1,132 @@
 body {
   font-family: "Roboto" sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 :root {
-  --brand-color: color: #2E2F42;
-  --adress-color: color: #434455;
-  --paragr-color: color: #434455;
-  --focuse-color: color: #404BBF;
-  --hover-color: color: #FFFFFF;
-  --text-color: color: #FFFFFF;
+  --color-brand: #2e2f42;
+  --link-foc: #4d5ae5;
+  --hover: #404bbf;
+  --background: #404bbf;
+  --text-but: color: #FFFFFF;
+  --color-par: color: #434455;
 }
-
-<!--logo-->
 .logotip {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-color: #4D5AE5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
 }
 .logohalf {
-font-family: 'Raleway';
-font-style: normal;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e2f42;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-brand);
+}
+.navigation .ahead:focus {
+  color: var(--link);
+}
+.navigation .ahead:hover {
+  color: var(--hover);
+}
+.contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-brand);
+}
+.contacts .folow:focus {
+  color: var(--link-foc);
+}
+.contacts .folow:hover {
+  color: var(--hover);
+}
+.hero {
+  background: #2e2f42;
+}
+.capital {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.button {
+  background-color: var(--link-foc);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--background);
+}
+.button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.button-port {
+    background: #F4F4FD;
+    cursor: pointer;
+}
+.button-port:focus {
+background: #404BBF;
+}
+
+.text-port {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #4D5AE5;
+}
+.text-port:active {
+  color: #FFFFFF;
+}
+h3 {
+    color: var(--color-brand);
+}
+p {
+    color: var(--color-par);
+}
+h3 {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: var(--color-brand);
+}
+p {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--color-par);
+}
+h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: var(--color-brand);
+}
+.team {
+    background-color:#F4F4FD;;
+}
+.fotter {
+    background-color: var(--color-brand);
+}
+.fotter-par {
+    color: #F4F4FD;
+}
+.logo-fot {
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-color: #2E2F42;
-}
-<!--hero-->
-.navigation {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-}
-.navigation .ahead {
-color: var(--brand-color);
-}
-.navigation .ahead:focus {
-    color: var(--focuse-color)
-}
-.navigation .ahead:hover {
-    color: var(--hover-color)
-}
-.link-contact {
-    color: var(--adress-color)
-}
-.link-contact .contact:focus {
-    color: var(--focuse-color);
-}
-.link-contact .contact:hover {
-    color: var(--hover-color)
-}
-.capital {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-color: var(--hover-color)
-}
-.push {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: var(--text-color);
+color: #F4F4FD;
 }
