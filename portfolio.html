@@ -5,110 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!--hero-->
-    <header>
-        <nav>
-            <a href="./index.html" class="logotip">Web<span class="logohalf">Studio</span></a>
-            <ul class="navigation">
-                <li><a class="ahead" href="./index.html">Studio</a></li>
-                <li><a class="ahead" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="ahead" href="./index.html">Contacts</a></li>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html">Web<span>Studio</span></a>
+            <ul class="header-menu list">
+                <li class="header-menu-item"><a class="header-menu-link" href="./index.html">Studio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="./index.html">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul class="contacts">
+            <ul class="header-soc list">
                 <li>
-                    <a class="folow" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="header-soc-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="folow" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    <a class="header-soc-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
     </header>
     <main>
         <!--navigation on page-->
-        <section>
-            <button class="button-port" type="button"> <span class="text-port">All</span></button>
-            <button class="button-port" type="button"> <span class="text-port">Web Site</span></button>
-            <button class="button-port" type="button"> <span class="text-port">App</span></button>
-            <button class="button-port" type="button"> <span class="text-port">Design</span></button>
-            <button class="button-port" type="button"> <span class="text-port">Marketing</span></button>
-        </section>
-        <!--services-->
-        <section>
-            <ul>
-                <li>
+        <h1 hidden>Pages</h1>
+        <section class="porfolio">
+            <button class="button-item list" type="button"><span class="button-text">All</span></button>
+            <button class="button-item list" type="button"><span class="button-text">Web Site</span></button>
+            <button class="button-item list" type="button"><span class="button-text">App</span></button>
+            <button class="button-item list" type="button"><span class="button-text">Design</span></button>
+            <button class="button-item list" type="button"><span class="button-text">Marketing</span></button>
+
+            <!--services-->
+            <ul class="technologies-list list">
+                <li class="technologies-item">
                     <img src="./images/bank.jpg" alt="banking payment" width="360" height="300">
-                    <h3>Banking App Interface Concept</h3>
-                    <p>App</p>
+                    <h2 class="technologies-team">Banking App Interface Concept</h2>
+                    <p class="technologies-text">App</p>
                 </li>
-                <li>
+                <li class="technologies-item">
                     <img src="./images/payment.jpg" alt="cashless" width="360" height="300">
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
+                    <h2 class="technologies-team">Cashless Payment</h2>
+                    <p class="technologies-text">Marketing</p>
                 </li>
-                <li>
+                <li class="technologies-item">
                     <img src="./images/app.jpg" alt="for app" width="360" height="300">
-                    <h3>Meditation App</h3>
-                    <p>App</p>
+                    <h2 class="technologies-team">Meditation App</h2>
+                    <p class="technologies-text">App</p>
 
                 </li>
-            </ul>
 
-        </section>
-        <!--services2-->
-        <section>
-            <ul>
-                <li>
+
+                <li class="technologies-item">
                     <img src="./images/servic.jpg" alt="service" width="360" height="300">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
+                    <h2 class="technologies-team">Taxi Service</h2>
+                    <p class="technologies-text">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/screen.jpg" alt="phone" width="360" height="300">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
+                    <h2 class="technologies-team">Screen Illustrations</h2>
+                    <p class="technologies-text">Design</p>
                 </li>
                 <li>
                     <img src="./images/courses.jpg" alt="online study" width="360" height="300">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
+                    <h2 class="technologies-team">Online Courses</h2>
+                    <p class="technologies-text">Marketing</p>
                 </li>
-            </ul>
 
-        </section>
-        <!--services3-->
-        <section>
-            <ul>
-                <li>
+                <!--services3-->
+
+                <li class="technologies-item">
                     <img src="./images/profile.jpg" alt="account" width="360" height="300">
-                    <h3>Instagram Stories Concept</h3>
-                    <p>Design</p>
+                    <h2 class="technologies-team">Instagram Stories Concept</h2>
+                    <p class="technologies-text">Design</p>
                 </li>
                 <li>
                     <img src="./images/healthy.jpg" alt="vegerable" width="360" height="300">
-                    <h3>Organic Food</h3>
-                    <p>Web Site</p>
+                    <h2 class="technologies-team">Organic Food</h2>
+                    <p class="technologies-text">Web Site</p>
                 </li>
                 <li>
                     <img src="./images/barista.jpg" alt="making coffee" width="360" height="300">
-                    <h3>Fresh Coffee</h3>
-                    <p>Web Site</p>
+                    <h2 class="technologies-team">Fresh Coffee</h2>
+                    <p class="technologies-text">Web Site</p>
                 </li>
             </ul>
-
         </section>
     </main>
     <!--footer-->
-    <footer class="fotter">
-        <a href="./index.html" class="logotip">Web<span class="logo-fot">Studio</span></a>
-        <p class="fotter-par">
+    <footer class="footer">
+        <a class="footer-logo" href="./index.html">Web<span>Studio</span></a>
+        <p class="footer-text">
             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p>
     </footer>
