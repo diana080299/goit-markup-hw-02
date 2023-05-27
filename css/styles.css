@@ -1,6 +1,15 @@
+:root {
+  --brand-color: #2e2f42;
+  --text-color: #434455;
+  --change-color: #404bbf;
+  --logo-color: #4d5ae5;
+  --foc-hov-text: #ffffff;
+  --bagr-btn: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--text-color);
   background-color: var(--foc-hov-text);
 }
 .list {
@@ -10,14 +19,6 @@ body {
   text-decoration: none;
 }
 
-:root {
-  --brand-color: #2e2f42;
-  --text-color: #434455;
-  --change-color: #404bbf;
-  --logo-color: #4d5ae5;
-  --foc-hov-text: #ffffff;
-  --bagr-btn: #f4f4fd;
-}
 /*--------header----------*/
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -28,7 +29,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-color);
 }
-.header-logo span {
+.header-logo-text {
   color: var(--brand-color);
 }
 
@@ -44,8 +45,6 @@ body {
 }
 
 .header-soc-link {
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -54,16 +53,16 @@ body {
 
 .header-soc-link:focus,
 .header-soc-link:hover {
-  color: #404bbf;
+  color: var(--change-color);
 }
 .header-soc-text:focus,
 .header-soc-text:hover {
-  color: #404bbf;
+  color: var(--change-color);
 }
 
 .header-menu-link:focus,
 .header-menu-link:hover {
-  color: #404bbf;
+  color: var(--change-color);
 }
 
 /*-------hero-------*/
@@ -73,7 +72,6 @@ body {
 }
 
 .hero-tittle {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -83,13 +81,12 @@ body {
 
 .button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: var(--logo-color);
   cursor: pointer;
 }
 
@@ -103,7 +100,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
+  color: var(--foc-hov-text);
 }
 
 /*-------section order---------*/
@@ -118,7 +115,6 @@ body {
 }
 
 .order-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -128,7 +124,6 @@ body {
 /*--------what we are doing----------*/
 
 .services-tittle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -140,13 +135,12 @@ body {
 /*--------TEAM---------*/
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--bagr-btn);
 }
 .team-item {
   background-color: var(--foc-hov-text);
 }
 .team-tittle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -164,7 +158,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -187,21 +180,19 @@ body {
   color: var(--logo-color);
 }
 .footer-tittle {
-  color: #f4f4fd;
+  color: var(--bagr-btn);
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--bagr-btn);
 }
 
 /*-------PORTFOLIO--------*/
 
 .button-item {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
