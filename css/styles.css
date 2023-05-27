@@ -76,7 +76,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--foc-hov-text);
 }
 
 .button {
@@ -85,7 +85,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--foc-hov-text);
   background-color: var(--logo-color);
   cursor: pointer;
 }
