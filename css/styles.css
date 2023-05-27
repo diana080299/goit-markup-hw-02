@@ -48,7 +48,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--brand-color);
+  color: var(--text-color);
+}
+.header-soc-link:focus,
+.header-soc-link:hover {
+  color: #404bbf;
 }
 
 .header-menu-link:focus,
@@ -72,7 +76,7 @@ body {
 }
 
 .button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -130,9 +134,11 @@ body {
 /*--------TEAM---------*/
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
-
+.team-item {
+  background-color: var(--foc-hov-text);
+}
 .team-tittle {
   font-weight: 700;
   font-size: 36px;
@@ -166,7 +172,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -188,7 +194,7 @@ body {
 /*-------PORTFOLIO--------*/
 
 .button-item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
