@@ -19,7 +19,7 @@ body {
   text-decoration: none;
 }
 
-/*--------header----------*/
+/*-------------------------HEADER------------------------------*/
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -65,7 +65,7 @@ body {
   color: var(--change-color);
 }
 
-/*-------hero-------*/
+/*-------------------------------HERO------------------------*/
 
 .hero {
   background-color: var(--brand-color);
@@ -103,7 +103,7 @@ body {
   color: var(--foc-hov-text);
 }
 
-/*-------section order---------*/
+/*------------------------------------SECTION ORDER-----------------------------------------*/
 
 .order-item-tittle {
   font-weight: 500;
@@ -121,7 +121,7 @@ body {
   color: var(--text-color);
 }
 
-/*--------what we are doing----------*/
+/*------------------------------------WHAT WE ARE DOING----------------------------*/
 
 .services-tittle {
   font-size: 36px;
@@ -132,7 +132,7 @@ body {
   color: var(--brand-color);
 }
 
-/*--------TEAM---------*/
+/*--------------------------------------TEAM------------------------------------*/
 
 .team {
   background-color: var(--bagr-btn);
@@ -164,7 +164,7 @@ body {
   color: var(--text-color);
 }
 
-/*-------FOOTER--------*/
+/*----------------------------FOOTER---------------------------------*/
 
 .footer {
   background: var(--brand-color);
@@ -189,7 +189,9 @@ body {
   color: var(--bagr-btn);
 }
 
-/*-------PORTFOLIO--------*/
+/*!--------------------------------PORTFOLIO-------------------------------!*/
+
+/*?------------------------------MENU---------------------------*/
 
 .button-item {
   font-family: inherit;
@@ -207,6 +209,9 @@ body {
   color: var(--foc-hov-text);
   background-color: var(--change-color);
 }
+
+/*?------------------------------MAIN---------------------------*/
+
 .technologies-team {
   font-weight: 500;
   font-size: 20px;
@@ -214,6 +219,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
+
 .technologies-text {
   font-size: 16px;
   line-height: 1.5;
